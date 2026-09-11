@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#176b52">
+  <meta name="description" content="낯선 차량 경고등을 스캔하고 필요한 조치와 가까운 정비소까지 안내하는 MODEON">
+  <meta property="og:title" content="MODEON — 차를 이해하는 모드, ON">
+  <meta property="og:description" content="찍으면 알고, 알면 바로 대처하는 차량 가이드">
+  <meta property="og:type" content="website">
+  <title>MODEON — 차를 이해하는 모드, ON.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="MODEON 홈">
+      <img src="assets/modeon-mark.svg" alt="" width="34" height="34">
+      <span>MODEON</span>
+    </a>
+    <nav aria-label="주요 메뉴">
+      <a href="#features">기능</a>
+      <a href="#how">사용 방법</a>
+      <a class="nav-download" href="#download">앱 다운로드</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> VEHICLE GUIDE, READY</p>
+        <h1>차를 이해하는<br>모드, <em>ON.</em></h1>
+        <p class="hero-description">낯선 경고등을 카메라로 확인하고,<br>지금 필요한 조치까지 한 번에 알아보세요.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#download">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7L8 5Zm-3 0h2v14H5V5Z"/></svg>
+            Android 베타 다운로드
+          </a>
+          <a class="button secondary" href="#how">어떻게 작동하나요?</a>
+        </div>
+        <p class="beta-note">현재 Android 테스트 버전을 제공합니다.</p>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="MODEON 앱 화면 예시">
+        <div class="halo"></div>
+        <div class="phone">
+          <div class="phone-top"><span>9:41</span><i></i><span>● ᯤ</span></div>
+          <div class="app-bar"><div class="mini-mark">M</div><b>MODEON</b><div class="avatar">MJ</div></div>
+          <div class="car-pill"><i></i> 내 차량 · 현대 아반떼</div>
+          <p class="hello">안녕하세요, 민준님</p>
+          <h2>지금 무엇이<br>궁금한가요?</h2>
+          <p class="app-sub">모르는 표시를 카메라로 비춰보세요.</p>
+          <div class="scan-card">
+            <div class="scan-icon"><span></span></div>
+            <div><b>경고등 스캔하기</b><small>여러 표시를 한 번에 인식해요</small></div>
+            <strong>→</strong>
+          </div>
+          <p class="section-label">인식된 표시 2개</p>
+          <div class="result-card danger"><div class="result-icon">!</div><div><b>엔진 과열 경고</b><small>안전한 곳에 정차가 필요해요</small></div><span>선택</span></div>
+          <div class="result-card"><div class="result-icon oil">⌁</div><div><b>엔진 오일 경고</b><small>오일 압력을 확인하세요</small></div><span>선택</span></div>
+          <div class="home-indicator"></div>
+        </div>
+        <div class="float-card float-one"><span>✓</span><div><b>복수 표시 인식</b><small>원하는 결과를 선택</small></div></div>
+        <div class="float-card float-two"><span>↗</span><div><b>가까운 정비소</b><small>예상 18분 · 7.2km</small></div></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="핵심 특징">
+      <p><strong>10종</strong><span>공통 경고등 인식</span></p>
+      <p><strong>3단계</strong><span>스캔 · 가이드 · 조치</span></p>
+      <p><strong>한 번에</strong><span>복수 표시 선택</span></p>
+      <p><strong>가까운 순</strong><span>견인 · 정비업체 연결</span></p>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> WHAT MODEON DOES</p>
+        <h2>당황스러운 순간에도<br>다음 행동은 분명하게.</h2>
+        <p>기능 설명에 그치지 않고 운전자가 실제로 취해야 할 조치까지 이어줍니다.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-main reveal">
+          <div class="feature-number">01</div>
+          <div class="feature-icon scan-lines"><i></i></div>
+          <h3>카메라 다중 인식</h3>
+          <p>계기판에 함께 켜진 여러 경고등을 인식하고, 확인할 표시를 직접 선택할 수 있습니다.</p>
+          <div class="tag-row"><span>온디바이스 AI</span><span>빠른 선택</span></div>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-number">02</div>
+          <div class="feature-icon">?</div>
+          <h3>이해하기 쉬운 가이드</h3>
+          <p>경고의 의미와 위험도, 주행 가능 여부를 쉬운 말로 안내합니다.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-number">03</div>
+          <div class="feature-icon">↗</div>
+          <h3>정차·견인·정비 연결</h3>
+          <p>가까운 업체와 예상 시간·거리를 확인한 뒤 사용하던 내비 앱으로 출발합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how" id="how">
+      <div class="how-inner">
+        <div class="section-heading light reveal">
+          <p class="eyebrow"><span></span> THREE SIMPLE STEPS</p>
+          <h2>찍고, 확인하고,<br>바로 대처하세요.</h2>
+        </div>
+        <ol class="steps">
+          <li class="reveal"><b>1</b><div><h3>스캔</h3><p>계기판의 경고등을 카메라로 비춥니다.</p></div></li>
+          <li class="reveal"><b>2</b><div><h3>가이드</h3><p>인식된 표시 중 하나를 골라 의미와 위험도를 확인합니다.</p></div></li>
+          <li class="reveal"><b>3</b><div><h3>조치</h3><p>필요하면 정차하고, 견인 또는 가까운 정비업체로 연결합니다.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section download-section" id="download">
+      <div class="download-card reveal">
+        <div>
+          <p class="eyebrow"><span></span> ANDROID BETA</p>
+          <h2>MODEON을<br>먼저 만나보세요.</h2>
+          <p>Android 64비트 기기용 테스트 버전입니다. 설치 전 아래 안내를 확인해주세요.</p>
+          <a class="button primary download-button" href="downloads/modeon-android-arm64-v1.0.0.apk" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16 6 10h4V3h4v7h4l-6 6Zm-7 4v-5h2v3h10v-3h2v5H5Z"/></svg>
+            APK 다운로드
+          </a>
+          <p class="file-meta">v1.0.0 · 35.2MB · Android arm64 · 테스트 서명</p>
+        </div>
+        <div class="install-note">
+          <h3>설치 전 확인</h3>
+          <ul>
+            <li>다운로드 후 브라우저의 APK 설치 권한을 허용해야 할 수 있습니다.</li>
+            <li>현재 베타 버전이며 정식 스토어 배포본이 아닙니다.</li>
+            <li>이 빌드의 주변 업체·경로 조회는 운영 중계 서버 연결 전까지 사용할 수 없습니다.</li>
+            <li>경고 안내는 참고용이며 실제 차량 설명서와 현장 안전 지시를 우선하세요.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="safety">
+      <div><span>!</span><h2>운전 중 조작하지 마세요.</h2></div>
+      <p>MODEON은 차량 제조사의 공식 진단을 대체하지 않습니다. 붉은 경고등, 연기, 화재 위험 또는 제동·조향 이상이 있으면 안전한 곳에 정차하고 긴급 서비스에 연락하세요.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><img src="assets/modeon-mark.svg" alt="" width="32" height="32"><span>MODEON</span></div>
+    <p>차를 이해하는 모드, ON.</p>
+    <div><a href="privacy.html">개인정보 처리방침</a><a href="https://github.com/Jlim01/Mode-On/issues">문의</a></div>
+    <small>© <span id="year"></span> MODEON. All rights reserved.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

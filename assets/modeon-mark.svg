@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">MODEON</title>
+  <rect width="128" height="128" rx="34" fill="#176b52"/>
+  <path d="M34 89V39h12l18 25 18-25h12v50H80V61L64 83 48 61v28H34Z" fill="#fff"/>
+  <circle cx="98" cy="30" r="8" fill="#d69b47"/>
+</svg>
